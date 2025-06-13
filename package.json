@@ -1,0 +1,23 @@
+{
+  "name": "ai-smart-contract",
+  "version": "1.0.0",
+  "description": "A project for building an AI smart contract solution.",
+  "main": "src/scripts/deploy.js",
+  "scripts": {
+    "deploy": "node src/scripts/deploy.js",
+    "interact": "node src/scripts/interact.js",
+    "test": "truffle test"
+  },
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^2.1.15",
+    "dotenv": "^16.5.0",
+    "truffle": "^5.4.29",
+    "web3": "^1.6.1"
+  },
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^9.1.3"
+  },
+  "author": "Your Name",
+  "license": "MIT"
+}
